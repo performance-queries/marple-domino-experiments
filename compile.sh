@@ -17,6 +17,8 @@ if grep --quiet "exceeds allowed pipeline" /tmp/error.log; then
 elif grep --quiet "Sketch Not Resolved" /tmp/error.log; then
   echo "Failed to find mapping: atom isn't expressive enough"
 #  grep "Sketch failed " /tmp/error.log;
+  gvpr -f secondgraph.gv /tmp/error.log | neato -n -T png > /tmp/pipeline.png
+  echo "Pipeline diagram at /tmp/pipeline.png"
   exit;
 else
   echo "Found a mapping"
