@@ -105,7 +105,9 @@ Pipeline diagram at /tmp/pipeline.png
 
 
 marple/example_queries/tcp_oos.sql
-Failed to find mapping: atom isn't expressive enough
+Found a mapping
+Total of 7 stages
+Maximum of 4 atoms/stage
 Pipeline diagram at /tmp/pipeline.png
 
 
