@@ -1,17 +1,21 @@
 marple/example_queries/byte_counts.sql
 Failed to find mapping: atom isn't expressive enough
+Pipeline diagram at /tmp/pipeline.png
 
 
 marple/example_queries/flowlet_hist.sql
 Failed to find mapping: atom isn't expressive enough
+Pipeline diagram at /tmp/pipeline.png
 
 
 marple/example_queries/flowlet_sum.sql
 Failed to find mapping: atom isn't expressive enough
+Pipeline diagram at /tmp/pipeline.png
 
 
 marple/example_queries/high_e2e_latency.sql
 Failed to find mapping: atom isn't expressive enough
+Pipeline diagram at /tmp/pipeline.png
 
 
 marple/example_queries/high_latency.sql
@@ -23,30 +27,37 @@ Pipeline diagram at /tmp/pipeline.png
 
 marple/example_queries/high_tail_latency.sql
 Failed to find mapping: atom isn't expressive enough
+Pipeline diagram at /tmp/pipeline.png
 
 
 marple/example_queries/incast.sql
 Failed to find mapping: atom isn't expressive enough
+Pipeline diagram at /tmp/pipeline.png
 
 
 marple/example_queries/latency_ewma.sql
 Failed to find mapping: atom isn't expressive enough
+Pipeline diagram at /tmp/pipeline.png
 
 
 marple/example_queries/loss_rate.sql
 Failed to find mapping: atom isn't expressive enough
+Pipeline diagram at /tmp/pipeline.png
 
 
 marple/example_queries/outcast.sql
 Failed to find mapping: atom isn't expressive enough
+Pipeline diagram at /tmp/pipeline.png
 
 
 marple/example_queries/pkt_counts.sql
 Failed to find mapping: atom isn't expressive enough
+Pipeline diagram at /tmp/pipeline.png
 
 
 marple/example_queries/pktlength_ewma.sql
 Failed to find mapping: atom isn't expressive enough
+Pipeline diagram at /tmp/pipeline.png
 
 
 marple/example_queries/project_example.sql
@@ -58,10 +69,12 @@ Pipeline diagram at /tmp/pipeline.png
 
 marple/example_queries/qin_buckets.sql
 Failed to find mapping: atom isn't expressive enough
+Pipeline diagram at /tmp/pipeline.png
 
 
 marple/example_queries/route_reconvergence.sql
 Failed to find mapping: atom isn't expressive enough
+Pipeline diagram at /tmp/pipeline.png
 
 
 marple/example_queries/tcp_nmo.sql
@@ -73,9 +86,11 @@ Pipeline diagram at /tmp/pipeline.png
 
 marple/example_queries/tcp_oos.sql
 Failed to find mapping: atom isn't expressive enough
+Pipeline diagram at /tmp/pipeline.png
 
 
 marple/example_queries/tin_buckets.sql
 Failed to find mapping: atom isn't expressive enough
+Pipeline diagram at /tmp/pipeline.png
 
 
