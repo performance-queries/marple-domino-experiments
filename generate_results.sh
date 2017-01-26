@@ -10,9 +10,9 @@ for f in `ls marple/example_queries/*`; do
   echo -e "\n" >> mul_acc.txt
   mv /tmp/pipeline.png `echo ${f} | cut -d '/' -f 3 | cut -d '.' -f 1`_mul_acc.png
 
-  echo $f >> nested_ifs.txt
-  ./compile.sh domino-full.c nested_ifs.sk 15 15 >> nested_ifs.txt
-  echo -e "\n" >> nested_ifs.txt
-  mv /tmp/pipeline.png `echo ${f} | cut -d '/' -f 3 | cut -d '.' -f 1`_nested_ifs.png
+#  echo $f >> nested_ifs.txt
+#  ./compile.sh domino-full.c nested_ifs.sk 15 15 >> nested_ifs.txt
+#  echo -e "\n" >> nested_ifs.txt
+#  mv /tmp/pipeline.png `echo ${f} | cut -d '/' -f 3 | cut -d '.' -f 1`_nested_ifs.png
 
 done
