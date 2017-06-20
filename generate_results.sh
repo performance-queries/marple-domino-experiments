@@ -1,6 +1,7 @@
 #! /bin/bash
 #Change this examples variable to run a different set of examples
-examples="byte_counts latency_ewma tcp_oos tcp_nmo flowlet_hist high_e2e_latency paper_new_connections incast paper_loss_rate paper_tcp_timeouts"
+examples="pkt_counts latency_ewma tcp_oos tcp_nmo flowlet_hist paper_high_e2e_latency paper_new_connections incast paper_loss_rate paper_tcp_timeouts"
+rm -rf figures/*.png
 for example in $examples; do
   f=~/marple/example_queries/$example.sql
   cat $f | java -ea -jar ~/marple/target/Compiler-jar-with-dependencies.jar > /dev/null 2>&1
