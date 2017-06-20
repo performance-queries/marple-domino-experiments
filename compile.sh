@@ -21,8 +21,9 @@ elif grep --quiet "Sketch Not Resolved" /tmp/error.log; then
   exit 2
 else
   echo "Found a mapping"
-  grep "stages" /tmp/out.log
+  grep "Total of" /tmp/out.log | grep "stages"
   grep "atoms/stage" /tmp/out.log
+  grep "Total of" /tmp/out.log | grep "atoms"
   gvpr -f secondgraph.gv /tmp/error.log | neato -n -T png > /tmp/pipeline.png
   echo "Pipeline diagram at /tmp/pipeline.png"
   exit 0
