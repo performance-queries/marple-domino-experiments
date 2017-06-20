@@ -1,0 +1,3 @@
+This folder stores Domino pipeline diagrams for each Marple query as png files.
+Each file is suffixed with an atom name indicating the atom required to run the
+query.

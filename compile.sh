@@ -13,17 +13,17 @@ domino $domino_program $atom_template $pipeline_depth $pipeline_width 2> /tmp/er
 
 if grep --quiet "exceeds allowed pipeline" /tmp/error.log; then
   echo "Failed to find mapping: pipeline is too small"
-  grep "exceeds allowed pipeline" /tmp/error.log;
+  grep "exceeds allowed pipeline" /tmp/error.log
+  exit 1
 elif grep --quiet "Sketch Not Resolved" /tmp/error.log; then
   echo "Failed to find mapping: atom isn't expressive enough"
 #  grep "Sketch failed " /tmp/error.log;
-  gvpr -f secondgraph.gv /tmp/error.log | neato -n -T png > /tmp/pipeline.png
-  echo "Pipeline diagram at /tmp/pipeline.png"
-  exit;
+  exit 2
 else
   echo "Found a mapping"
   grep "stages" /tmp/out.log
   grep "atoms/stage" /tmp/out.log
   gvpr -f secondgraph.gv /tmp/error.log | neato -n -T png > /tmp/pipeline.png
   echo "Pipeline diagram at /tmp/pipeline.png"
+  exit 0
 fi
