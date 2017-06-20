@@ -1,0 +1,93 @@
+
+
+Trying /Users/anirudh/marple/example_queries/pkt_counts.sql with mul_acc
+mul_acc succeeded.
+Found a mapping
+Total of 5 stages
+Maximum of 2 atoms/stage
+Total of 7 atoms
+Pipeline diagram at /tmp/pipeline.png
+
+
+Trying /Users/anirudh/marple/example_queries/latency_ewma.sql with mul_acc
+mul_acc succeeded.
+Found a mapping
+Total of 6 stages
+Maximum of 4 atoms/stage
+Total of 11 atoms
+Pipeline diagram at /tmp/pipeline.png
+
+
+Trying /Users/anirudh/marple/example_queries/tcp_oos.sql with mul_acc
+mul_acc succeeded.
+Found a mapping
+Total of 7 stages
+Maximum of 4 atoms/stage
+Total of 14 atoms
+Pipeline diagram at /tmp/pipeline.png
+
+
+Trying /Users/anirudh/marple/example_queries/tcp_nmo.sql with mul_acc
+mul_acc failed. Trying /Users/anirudh/marple/example_queries/tcp_nmo.sql with nested_ifs.
+nested_ifs succeeded.
+Found a mapping
+Total of 5 stages
+Maximum of 2 atoms/stage
+Total of 6 atoms
+Pipeline diagram at /tmp/pipeline.png
+
+
+Trying /Users/anirudh/marple/example_queries/flowlet_hist.sql with mul_acc
+mul_acc succeeded.
+Found a mapping
+Total of 11 stages
+Maximum of 6 atoms/stage
+Total of 31 atoms
+Pipeline diagram at /tmp/pipeline.png
+
+
+Trying /Users/anirudh/marple/example_queries/paper_high_e2e_latency.sql with mul_acc
+mul_acc succeeded.
+Found a mapping
+Total of 5 stages
+Maximum of 3 atoms/stage
+Total of 8 atoms
+Pipeline diagram at /tmp/pipeline.png
+
+
+Trying /Users/anirudh/marple/example_queries/paper_new_connections.sql with mul_acc
+mul_acc failed. Trying /Users/anirudh/marple/example_queries/paper_new_connections.sql with nested_ifs.
+nested_ifs succeeded.
+Found a mapping
+Total of 4 stages
+Maximum of 3 atoms/stage
+Total of 10 atoms
+Pipeline diagram at /tmp/pipeline.png
+
+
+Trying /Users/anirudh/marple/example_queries/incast.sql with mul_acc
+mul_acc failed. Trying /Users/anirudh/marple/example_queries/incast.sql with nested_ifs.
+nested_ifs succeeded.
+Found a mapping
+Total of 7 stages
+Maximum of 4 atoms/stage
+Total of 14 atoms
+Pipeline diagram at /tmp/pipeline.png
+
+
+Trying /Users/anirudh/marple/example_queries/paper_loss_rate.sql with mul_acc
+mul_acc succeeded.
+Found a mapping
+Total of 8 stages
+Maximum of 4 atoms/stage
+Total of 19 atoms
+Pipeline diagram at /tmp/pipeline.png
+
+
+Trying /Users/anirudh/marple/example_queries/paper_tcp_timeouts.sql with mul_acc
+mul_acc succeeded.
+Found a mapping
+Total of 8 stages
+Maximum of 3 atoms/stage
+Total of 15 atoms
+Pipeline diagram at /tmp/pipeline.png
